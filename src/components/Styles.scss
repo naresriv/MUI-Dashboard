@@ -1,0 +1,129 @@
+.dashboard_container {
+    height: 100vh;
+    overflow: hidden;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    background-color: red;
+    background-color: #fdfdfd;
+    border-radius: 30px;
+    .dashboard_content {
+        .css-1gictic-MuiPaper-root {
+            background-color: unset;
+            box-shadow: none;
+        }
+        .left_content {
+            background-color: #e1dcff;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            padding: 4% 10%;
+            align-items: center;
+            .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+                width: 80%;
+                background-color: #fff;
+                border: none;
+                border-radius: 10px;
+            }
+            .css-i4bv87-MuiSvgIcon-root {
+                height: 2rem;
+                width: 3rem;
+                background-color: #fff;
+                border-radius: 10px;
+                padding: 2%;
+            }
+        }
+    }
+    .spam_mails {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2% 2% 2% 4%;
+        background-color: #fff4ea;
+        border-radius: 10px;
+        .spam_mails_icons {
+            text-align: left;
+            .css-i4bv87-MuiSvgIcon-root {
+                opacity: 0.8;
+                margin-right: 1rem;
+            }
+        }
+    }
+    .auther_content {
+        width: 30%;
+    }
+    .autor_data {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 0;
+        span {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+        h6 {
+            width: 100%;
+            margin-bottom: 0;
+            margin-top: 0;
+            text-align: right;
+        }
+        .h6-1 {
+            text-align: left;
+        }
+    }
+}
+
+.data_table {
+    margin-left: 2%;
+}
+.css-887cpn-MuiPaper-root {
+    background-color: none !important;
+    box-sizing: none;
+    background: none;
+}
+.css-1ex1afd-MuiTableCell-root {
+    border: none !important;
+    padding: 14px 16px !important;
+    color: #000;
+    .css-i4bv87-MuiSvgIcon-root{
+        opacity: 0.8;
+    }
+}
+
+.spam_mail_tablle {
+    // padding-left: 2%;
+    // padding-right: 3%;
+    margin-top: 2rem;
+    height: 100%;
+    height: 31rem;
+    overflow: hidden;
+    .span_mail_content {
+        text-align: left;
+        padding: 2%;
+        background-color: #e1dcff;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        box-shadow: none;
+        padding-top: 4%;
+        .back {
+            padding-left: 5%;
+            margin-bottom: 15%;
+        }
+    }
+    .span_mail_tools {
+        display: flex;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        justify-content: space-between;
+        margin-bottom: 0.95rem;
+    }
+    .css-1ygcj2i-MuiTableCell-root,
+    .css-hbtnrh-MuiTableCell-root {
+        background-color: #fff4ea;
+        padding-left: 14px;
+    }
+    .css-887cpn-MuiPaper-root{
+        background-color: unset;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,13 @@
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0%;
+    .avatar {
+        display: flex;
+        align-items: center;
+        .css-i4bv87-MuiSvgIcon-root {
+            margin-right: 2.5rem;
+            color: #5a5a5a;
+        }
+    }
+}
